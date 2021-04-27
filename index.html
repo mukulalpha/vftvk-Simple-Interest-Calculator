@@ -1,16 +1,38 @@
+<!DOCTYPE html>
 <html>
+    <title>Any relevant title you want to give</title>
     <head>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
 
         Amount <input type="number"  id="principal">  <br/>
         Rate <input type="number"  id="rate">  <br/>
         No. of Years <input type="number"  id="years">  <br/>
         Interest : <span id="result"></span><br>
+        <span id="rate_val">
+            10.25%
+        </span>
+        <input type="range"  id="rate" min="minval" max="maxval" value="default_val">
+        <select id="years">
+            <option value="1">1</option>
+            <!-- fill in the rest of the values-->
+        </select>
 
-        <button onclick="compute()">Compute</button>
+        <button onclick="compute()">Compute Intrest</button>
+        <span id="result">
+
+        </span>
+        <footer>
+
+            &#169; This Calculator belongs to --your name--
+    
+    
+    </footer>
+        </div>
+    <body>
+        
     </body>
 </html>
