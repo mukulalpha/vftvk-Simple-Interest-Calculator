@@ -1,12 +1,39 @@
-body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
+body {
+    background-color:black;
+    font-family:arial;
+    color:white;
+    text-align: center;
+    
+    }
+
+h1 {
+    color:grey;
+    font-family:verdana;
+  
+    
+    }
+
 .maindiv {
-    background-color:white;
-    color:black;
-    width:300px;
+    background-color: white;
+    color: black;
+    width: 300px;
     padding:20px;
     border-radius:25px;
-    align:center
+    text-align: center;
+
+}    
+
+.feedback {
+
+    text-align: left;
+    padding: 10px;
+
+}
+
+.facepad {
+
+    text-align: left;
+
 }
 
 
